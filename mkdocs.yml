@@ -188,6 +188,10 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/Shardbyte
       name: Shardbyte @ Twitter
+    # Discord
+    - icon: fontawesome/brands/discord
+      link: https://discord.shardbyte.com
+      name: Shardbyte @ Discord
 
 ## Cookies
   consent:
