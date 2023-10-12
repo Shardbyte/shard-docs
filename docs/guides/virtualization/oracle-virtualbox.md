@@ -125,7 +125,7 @@ VirtualBox is a powerful virtualization tool that allows you to run multiple ope
 
 ### **Step 5: Install Fedora 38 Workstation in VirtualBox**
 
-!!! note ""
+!!! note
     Installing the Fedora 38 Workstation in a VirtualBox virtual machine allows you to explore the latest features and applications of this Linux distribution.
 
 ##### **Create or Open Your Virtual Machine:**
