@@ -62,7 +62,7 @@ VirtualBox is a powerful virtualization tool that allows you to run multiple ope
 
 ### **Step 3: Create a Virtual Machine**
 
-!!! note ""
+!!! note
     Creating a virtual machine in VirtualBox is a crucial step that involves configuring the virtual hardware and settings for the guest operating system you want to run. Here's a more in-depth look at this step:
 
 **Open VirtualBox:**
@@ -98,10 +98,10 @@ VirtualBox is a powerful virtualization tool that allows you to run multiple ope
 14. Once you click "Create," your virtual machine will be created and listed in the VirtualBox Manager.
 
 !!! note
-Your virtual machine is now set up and almost ready for the installation of the guest operating system. You can return to the VirtualBox Manager to start the installation process as described in Step 4.
+    Your virtual machine is now set up and almost ready for the installation of the guest operating system. You can return to the VirtualBox Manager to start the installation process as described in Step 4.
 ### **Step 4: Download Fedora 38 Workstation**
 
-!!! note ""
+!!! note
     Downloading the Fedora 38 Workstation ISO file is the first step to installing it in a VirtualBox virtual machine. Follow these steps:
 
 **Visit the Official Fedora Website:**
@@ -189,7 +189,7 @@ Your virtual machine is now set up and almost ready for the installation of the 
 2. Your virtual machine will boot, and you can use it just like a physical computer.
 3. You can switch between your host and virtual machine by using keyboard shortcuts (e.g., Right Ctrl on Windows).
 
-!!! warning ""
+!!! warning
     Remember that the virtual hardware settings, such as the number of CPU cores, graphics memory, and network configuration, can be adjusted in the virtual machine's settings, which we mentioned in Step 3. These settings can be fine-tuned to match the requirements of your guest OS and any specific needs you might have for your virtual environment.
 
 ### **Conclusion**
