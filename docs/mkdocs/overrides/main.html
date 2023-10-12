@@ -1,0 +1,33 @@
+<!-- Elements added to main will be displayed on all pages -->
+{% extends "base.html" %}
+
+
+<!-- Google tag (gtag.js) -->
+{% block libs %}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-613J896NLP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-613J896NLP');
+</script>
+{% endblock %}
+
+<!-- Announcement bar -->
+{% block announce %}
+  For updates follow <strong>@shardbyte</strong> on
+  <a rel="me" href="https://github.com/@shardbyte">
+    <span class="twemoji github">
+      {% include ".icons/fontawesome/brands/github.svg" %}
+    </span>
+    <strong>Github</strong>
+  </a>
+  and
+  <a href="https://twitter.com/shardbyte">
+    <span class="twemoji twitter">
+      {% include ".icons/fontawesome/brands/twitter.svg" %}
+    </span>
+    <strong>Twitter</strong>
+  </a>
+{% endblock %}

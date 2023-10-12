@@ -1,0 +1,249 @@
+##########
+# CONFIG #
+##########
+site_name: "Shardbyte Documentation"
+site_description: "Documentation using Github Pages"
+site_author: "Shardbyte"
+site_url: "https://shardbyte.com"
+
+# Copyright
+copyright: |
+  Copyright &copy; 2023 <a href="https://github.com/Shardbyte"  target="_blank" rel="noopener">Shardbyte</a> – <a href="#__consent">Change Cookie Settings</a>
+
+# Repository
+repo_name: "Shardbyte/shard-docs"
+repo_url: "https://github.com/Shardbyte/shard-docs"
+edit_uri: "edit/main/docs/"
+
+#########
+# THEME #
+#########
+theme:
+  custom_dir: docs/mkdocs/overrides/
+  name: "material"
+  language: "en"
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.annotation
+    - content.code.copy
+    # - content.code.select
+    - content.tabs.link
+    - content.tooltips
+
+    - header.autohide
+    - navigation.expand
+    - navigation.footer
+    # - navigation.indexes
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    - navigation.path
+    # - navigation.prune
+    # - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - toc.integrate
+
+  palette:
+    # Global Palette
+    primary: indigo
+    accent: light blue
+
+    # Palette toggle for light mode
+#    - media: "(prefers-color-scheme: light)"
+#      scheme: default
+#      toggle:
+#        icon: material/brightness-7
+#        name: Switch to Dark Mode
+#      primary: indigo
+#      accent: light blue
+
+    # Palette toggle for dark mode
+#    - media: "(prefers-color-scheme: dark)"
+#      scheme: slate
+#      toggle:
+#        icon: material/brightness-4
+#        name: Switch to Light Mode
+#      primary: indigo
+#      accent: light blue
+
+  logo: mkdocs/assets/images/logo-shardbyte-master-light.webp
+  favicon: mkdocs/assets/images/logo-shardbyte-master-light.webp
+
+## Global Font
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+
+  icon:
+## Global Icons
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+
+## Tag Icons
+    tag:
+      bash: simple/gnubash
+
+##############
+# EXTENSIONS #
+##############
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.tilde
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: Shardbyte
+      repo: shard-docs
+  - pymdownx.snippets:
+      auto_append:
+        - refs/abbreviations.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+###########
+# PLUGINS #
+###########
+plugins:
+  - git-authors
+  - glightbox
+  - search
+#  - optimize
+#  - privacy
+  - social
+  - tags
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      enabled: true
+      enable_creation_date: true
+      fallback_to_build_date: true
+      type: timeago
+  - git-committers:
+      enabled: true
+      repository: Shardbyte/shard-docs
+      branch: main
+
+#########
+# EXTRA #
+#########
+extra:
+## Tags
+  tags:
+    BASH: bash
+
+## Social Links
+  social:
+    # Github
+    - icon: fontawesome/brands/github
+      link: https://github.com/Shardbyte
+      name: Shardbyte @ Github
+    # Twitter
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/Shardbyte
+      name: Shardbyte @ Twitter
+
+## Cookies
+  consent:
+    title: Cookie Consent
+    description: >-
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    cookies:
+      analytics:
+        name: Google Analytics
+        checked: false
+    actions:
+      - accept
+      - manage
+
+## Analytics
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+
+## JS Extras
+extra_javascript:
+  - mkdocs/overrides/javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+## CSS Extras
+extra_css:
+  - mkdocs/overrides/css/extra.css
+
+#########
+# PAGES #
+#########
+nav:
+  - Home: index.md
+  - Guides:
+    - Virtualization:
+      - VirtualBox Setup: guides/virtualization/oracle-virtualbox.md
+
+#    - VMware Workstation Setup: virtualization/vmware-workstation.md
+#  - Tools:
+#    - Linux:
+#        - NMAP: tools/linux/tool-nmap.md
