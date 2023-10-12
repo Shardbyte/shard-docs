@@ -2,7 +2,7 @@
 title: Oracle VirtualBox
 ---
 
-## **Introduction:**
+# **VirtualBox**
 VirtualBox is a powerful virtualization tool that allows you to run multiple operating systems on a single computer. Whether you want to test software, experiment with different operating systems, or create virtual development environments, VirtualBox is a valuable tool. This step-by-step guide will walk you through the process of setting up VirtualBox on your computer.
 
 ### **Step 1: Download VirtualBox**
@@ -11,13 +11,13 @@ VirtualBox is a powerful virtualization tool that allows you to run multiple ope
 2. On the VirtualBox website's main page, you'll see a prominent "Downloads" section. Click on this section to proceed.
 
 After clicking on the "Downloads" section, you'll be taken to a page where you can choose the version of VirtualBox that's suitable for your operating system (Windows, macOS, Linux, etc.). Follow these steps:
-1. **Choose Download Version**
+1. **Choose Download Version:**
    - Click on the version that matches your host operating system. For example, if you're using Windows, click on the Windows version.
 
 2. **Download in Progress:**
    - Wait for the download to complete. The time it takes depends on your internet connection speed.
 
-3. **Locate the Installation File**
+3. **Locate the Installation File:**
    - Once the download is complete, locate the installation file (usually an executable file with a .exe extension on Windows) in your computer's download directory.
 
 ### **Step 2: Install VirtualBox**
@@ -61,10 +61,11 @@ After clicking on the "Downloads" section, you'll be taken to a page where you c
 ### **Step 3: Create a Virtual Machine**
 
 Creating a virtual machine in VirtualBox is a crucial step that involves configuring the virtual hardware and settings for the guest operating system you want to run. Here's a more in-depth look at this step:
+1. **Open VirtualBox:**
+   - After installing VirtualBox, open the application.
 
-1. **Open VirtualBox:** After installing VirtualBox, open the application.
-
-2. **Click "New":** In the VirtualBox Manager, click the "New" button to initiate the creation of a new virtual machine.
+2. **Click "New":**
+   - In the VirtualBox Manager, click the "New" button to initiate the creation of a new virtual machine.
 
 3. **Name and Operating System Type:**
    - In the "Name" field, give your virtual machine a descriptive name.
@@ -99,6 +100,7 @@ Your virtual machine is now set up and almost ready for the installation of the 
 
 ### **Step 4: Download Fedora 38 Workstation**
 
+!!! note ""
 Downloading the Fedora 38 Workstation ISO file is the first step to installing it in a VirtualBox virtual machine. Follow these steps:
 
 1. **Visit the Official Fedora Website:**
@@ -122,7 +124,8 @@ Downloading the Fedora 38 Workstation ISO file is the first step to installing i
 
 ### **Step 5: Install Fedora 38 Workstation in VirtualBox**
 
-Installing the Fedora 38 Workstation in a VirtualBox virtual machine allows you to explore the latest features and applications of this Linux distribution.
+!!! note ""
+    Installing the Fedora 38 Workstation in a VirtualBox virtual machine allows you to explore the latest features and applications of this Linux distribution.
 
 1. **Create or Open Your Virtual Machine:**
    - Open VirtualBox and select your previously created virtual machine.
@@ -176,7 +179,8 @@ Installing the Fedora 38 Workstation in a VirtualBox virtual machine allows you 
    - Once the ISO file is selected, click on the small disk icon with the red minus ("-") sign at the top of the Storage Devices list. This icon represents "Remove Attachment."
    - Click "OK" to save the settings.
 
-Enjoy exploring and using Fedora 38 Workstation within your VirtualBox environment!
+!!! success ""
+    Enjoy exploring and using Fedora 38 Workstation within your VirtualBox environment!
 
 ### **Step 6: Start and Use Your Virtual Machine**
 
@@ -186,5 +190,3 @@ Enjoy exploring and using Fedora 38 Workstation within your VirtualBox environme
 
 ### **Conclusion:**
 Setting up VirtualBox can be a valuable addition to your computing environment. It allows you to run multiple operating systems concurrently, making it an excellent tool for various purposes. Whether you're a developer, tester, or simply curious about different operating systems, VirtualBox offers flexibility and convenience.
-
-Enjoy exploring new operating systems and software in your virtual machines!
