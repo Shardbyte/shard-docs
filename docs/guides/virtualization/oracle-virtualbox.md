@@ -41,9 +41,9 @@ VirtualBox is a powerful virtualization tool that allows you to run multiple ope
 
 ##### **Run the Installation File:**
   - Double-click on the downloaded VirtualBox installation file. The file will typically have a name like `VirtualBox-x.x.x-Installer.exe` (1)
-{ .annotate }
+  { .annotate }
 
-1.  (where "x.x.x" represents the version number)
+  1.  (where "x.x.x" represents the version number)
 
 ##### **User Account Control (UAC) Prompt (Windows):**
   - On Windows, the User Account Control (UAC) prompt may appear. If it does, click "Yes" to allow the installation to proceed.
