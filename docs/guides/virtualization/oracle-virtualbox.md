@@ -40,10 +40,10 @@ VirtualBox is a powerful virtualization tool that allows you to run multiple ope
   - After downloading the VirtualBox installation file, you need to locate it in your computer's download directory. By default, most browsers save downloaded files in the "Downloads" folder.
 
 ##### **Run the Installation File:**
+<div class="annotate" markdown>
   - Double-click on the downloaded VirtualBox installation file. The file will typically have a name like `VirtualBox-x.x.x-Installer.exe` (1)
-  { .annotate }
-
-  1.  (where "x.x.x" represents the version number)
+</div>
+1.  (where "x.x.x" represents the version number)
 
 ##### **User Account Control (UAC) Prompt (Windows):**
   - On Windows, the User Account Control (UAC) prompt may appear. If it does, click "Yes" to allow the installation to proceed.
