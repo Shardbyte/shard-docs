@@ -15,11 +15,21 @@ VirtualBox is a powerful virtualization tool that allows you to run multiple ope
 1. Go to the VirtualBox website: [VirtualBox Website](https://www.virtualbox.org/).
 2. On the VirtualBox website's main page, you'll see a prominent "Downloads" section. Click on this section to proceed.
 
+<figure markdown>
+  ![Image title](https://shardbyte.com/assets/images/guides/virtualbox/virtualbox-gif-001.gif){ width="600" }
+  <figcaption>Downloads</figcaption>
+</figure>
+
 !!! note
     After clicking on the "Downloads" section, you'll be taken to a page where you can choose the version of VirtualBox that's suitable for your operating system (Windows, macOS, Linux, etc.). Follow these steps:
 
 ##### **Choose Download Version:**
   - Click on the version that matches your host operating system. For example, if you're using Windows, click on the Windows version.
+
+<figure markdown>
+  ![Image title](https://shardbyte.com/assets/images/guides/virtualbox/virtualbox-image-002.webp){ width="600" }
+  <figcaption>Download Specific Version</figcaption>
+</figure>
 
 ##### **Download in Progress:**
   - Wait for the download to complete. The time it takes depends on your internet connection speed.
