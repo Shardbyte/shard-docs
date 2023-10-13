@@ -2,6 +2,11 @@
 title: Oracle VirtualBox
 ---
 
+<figure markdown>
+  ![Image title](assets/images/guides/virtualbox/virtualbox-image-001.webp){ width="580" }
+  <figcaption>VirtualBox</figcaption>
+</figure>
+
 # **VirtualBox**
 VirtualBox is a powerful virtualization tool that allows you to run multiple operating systems on a single computer. Whether you want to test software, experiment with different operating systems, or create virtual development environments, VirtualBox is a valuable tool. This step-by-step guide will walk you through the process of setting up VirtualBox on your computer.
 
