@@ -3,7 +3,7 @@ title: Oracle VirtualBox
 ---
 
 <figure markdown>
-  ![Image title](assets/images/guides/virtualbox/virtualbox-image-001.webp){ width="580" }
+  ![Image title](https://shardbyte.com/assets/images/guides/virtualbox/virtualbox-image-001.webp){ width="580" }
   <figcaption>VirtualBox</figcaption>
 </figure>
 
