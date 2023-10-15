@@ -39,6 +39,11 @@ VirtualBox is a powerful virtualization tool that allows you to run multiple ope
 ##### **Locate the Downloaded Installation File:**
   - After downloading the VirtualBox installation file, you need to locate it in your computer's download directory. By default, most browsers save downloaded files in the "Downloads" folder.
 
+<figure markdown>
+  ![Image title](https://shardbyte.com/assets/images/guides/virtualbox/virtualbox-image-003.webp){ width="200" }
+  <figcaption>Example of Filename</figcaption>
+</figure>
+
 ##### **Run the Installation File:**
 <div class="annotate" markdown>
   - Double-click on the downloaded VirtualBox installation file. The file will typically have a name like `VirtualBox-x.x.x-Installer.exe` (1)
@@ -48,8 +53,18 @@ VirtualBox is a powerful virtualization tool that allows you to run multiple ope
 ##### **User Account Control (UAC) Prompt (Windows):**
   - On Windows, the User Account Control (UAC) prompt may appear. If it does, click **Yes** to allow the installation to proceed.
 
+<figure markdown>
+  ![Image title](https://shardbyte.com/assets/images/guides/virtualbox/virtualbox-image-004.webp){ width="450" }
+  <figcaption>Acknowledge Windows Warning</figcaption>
+</figure>
+
 ##### **VirtualBox Setup Wizard:**
   - The VirtualBox Setup Wizard will open. Click **Next** to begin the installation process.
+
+<figure markdown>
+  ![Image title](https://shardbyte.com/assets/images/guides/virtualbox/virtualbox-image-005.webp){ width="450" }
+  <figcaption>Begin VirtualBox Installation</figcaption>
+</figure>
 
 ##### **Choose Components:**
   - You'll be asked to select the components you want to install. By default, VirtualBox and Oracle VM VirtualBox Extension Pack are selected. We recommend installing both components, so leave these options as they are.
@@ -57,14 +72,34 @@ VirtualBox is a powerful virtualization tool that allows you to run multiple ope
 ##### **Choose Install Location:**
   - Specify the folder where you want VirtualBox to be installed. The default location is usually in the `C:\Program Files\Oracle\VirtualBox` directory. You can change this location if needed by clicking the **Browse** button.
 
+<figure markdown>
+  ![Image title](https://shardbyte.com/assets/images/guides/virtualbox/virtualbox-gif-002.gif){ width="450" }
+  <figcaption>Choose VirtualBox Components</figcaption>
+</figure>
+
 ##### **Create Start Menu Shortcuts:**
   - Choose whether you want to create shortcuts in the Start Menu. By default, both options ("Create shortcuts on the desktop" and "Create shortcuts in the Start Menu") are selected. You can uncheck them if you prefer not to have shortcuts.
+
+<figure markdown>
+  ![Image title](https://shardbyte.com/assets/images/guides/virtualbox/virtualbox-image-006.webp){ width="450" }
+  <figcaption>Choose VirtualBox Shortcuts</figcaption>
+</figure>
 
 ##### **Warning About Network Interfaces (Windows):**
   - If you're using Windows, you might see a warning about network interfaces during the installation. This is related to VirtualBox's network setup. Click **Yes** to proceed.
 
+<figure markdown>
+  ![Image title](https://shardbyte.com/assets/images/guides/virtualbox/virtualbox-image-007.webp){ width="450" }
+  <figcaption>Acknowledge Interface Changes</figcaption>
+</figure>
+
 ##### **Ready to Install:**
   - Review your installation settings on the summary screen. If everything looks correct, click **Install** to start the installation.
+
+<figure markdown>
+  ![Image title](https://shardbyte.com/assets/images/guides/virtualbox/virtualbox-image-008.webp){ width="450" }
+  <figcaption>Continue the Installation</figcaption>
+</figure>
 
 ##### **Installation Progress:**
   - The installer will copy files and install VirtualBox on your computer. This process may take a few minutes.
