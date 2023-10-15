@@ -56,7 +56,7 @@ theme:
 
   palette:
     # Global Palette
-    scheme: slate
+    scheme: default # slate after home fix
     primary: indigo
     accent: light blue
 
