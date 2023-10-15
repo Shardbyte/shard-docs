@@ -57,11 +57,11 @@ VirtualBox is a powerful virtualization tool that allows you to run multiple ope
 ##### **Choose Install Location:**
   - Specify the folder where you want VirtualBox to be installed. The default location is usually in the "C:\Program Files\Oracle\VirtualBox" directory. You can change this location if needed by clicking the "Browse" button.
 
-##### **Warning About Network Interfaces (Windows):**
-  - If you're using Windows, you might see a warning about network interfaces during the installation. This is related to VirtualBox's network setup. Click "Yes" to proceed.
-
 ##### **Create Start Menu Shortcuts:**
   - Choose whether you want to create shortcuts in the Start Menu. By default, both options ("Create shortcuts on the desktop" and "Create shortcuts in the Start Menu") are selected. You can uncheck them if you prefer not to have shortcuts.
+
+##### **Warning About Network Interfaces (Windows):**
+  - If you're using Windows, you might see a warning about network interfaces during the installation. This is related to VirtualBox's network setup. Click "Yes" to proceed.
 
 ##### **Ready to Install:**
   - Review your installation settings on the summary screen. If everything looks correct, click "Install" to start the installation.
