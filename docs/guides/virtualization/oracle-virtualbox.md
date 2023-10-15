@@ -21,7 +21,7 @@ VirtualBox is a powerful virtualization tool that allows you to run multiple ope
 </figure>
 
 !!! note
-    After clicking on the "Downloads" section, you'll be taken to a page where you can choose the version of VirtualBox that's suitable for your operating system (Windows, macOS, Linux, etc.). Follow these steps:
+    After clicking on the **Downloads** section, you'll be taken to a page where you can choose the version of VirtualBox that's suitable for your operating system (Windows, macOS, Linux, etc.). Follow these steps:
 
 ##### **Choose Download Version:**
   - Click on the version that matches your host operating system. For example, if you're using Windows, click on the Windows version.
@@ -46,31 +46,31 @@ VirtualBox is a powerful virtualization tool that allows you to run multiple ope
 1.  (where "x.x.x" represents the version number)
 
 ##### **User Account Control (UAC) Prompt (Windows):**
-  - On Windows, the User Account Control (UAC) prompt may appear. If it does, click "**Yes**" to allow the installation to proceed.
+  - On Windows, the User Account Control (UAC) prompt may appear. If it does, click **Yes** to allow the installation to proceed.
 
 ##### **VirtualBox Setup Wizard:**
-  - The VirtualBox Setup Wizard will open. Click "**Next**" to begin the installation process.
+  - The VirtualBox Setup Wizard will open. Click **Next** to begin the installation process.
 
 ##### **Choose Components:**
   - You'll be asked to select the components you want to install. By default, VirtualBox and Oracle VM VirtualBox Extension Pack are selected. We recommend installing both components, so leave these options as they are.
 
 ##### **Choose Install Location:**
-  - Specify the folder where you want VirtualBox to be installed. The default location is usually in the `C:\Program Files\Oracle\VirtualBox` directory. You can change this location if needed by clicking the "**Browse**" button.
+  - Specify the folder where you want VirtualBox to be installed. The default location is usually in the `C:\Program Files\Oracle\VirtualBox` directory. You can change this location if needed by clicking the **Browse** button.
 
 ##### **Create Start Menu Shortcuts:**
   - Choose whether you want to create shortcuts in the Start Menu. By default, both options ("Create shortcuts on the desktop" and "Create shortcuts in the Start Menu") are selected. You can uncheck them if you prefer not to have shortcuts.
 
 ##### **Warning About Network Interfaces (Windows):**
-  - If you're using Windows, you might see a warning about network interfaces during the installation. This is related to VirtualBox's network setup. Click "**Yes**" to proceed.
+  - If you're using Windows, you might see a warning about network interfaces during the installation. This is related to VirtualBox's network setup. Click **Yes** to proceed.
 
 ##### **Ready to Install:**
-  - Review your installation settings on the summary screen. If everything looks correct, click "**Install**" to start the installation.
+  - Review your installation settings on the summary screen. If everything looks correct, click **Install** to start the installation.
 
 ##### **Installation Progress:**
   - The installer will copy files and install VirtualBox on your computer. This process may take a few minutes.
 
 ##### **Installation Complete:**
-  - Once the installation is complete, you'll see a "Completing the Oracle VM VirtualBox Setup Wizard" screen. Make sure the "Start Oracle VM VirtualBox after installation" option is checked. Click "**Finish**."
+  - Once the installation is complete, you'll see a "Completing the Oracle VM VirtualBox Setup Wizard" screen. Make sure the "Start Oracle VM VirtualBox after installation" option is checked. Click **Finish**.
 
 ##### **VirtualBox Installed:**
   - Oracle VM VirtualBox is now installed on your computer and should open automatically. You can also find it in your Start Menu or desktop, depending on the options you selected.
