@@ -73,3 +73,13 @@ a.md-button.md-button:hover {
 .md-tabs__link:hover {
   color: var(--md-accent-fg-color);
 }
+
+@font-face {
+  font-family: 'Chillax-Semibold';
+  src: url('mkdocs/overrides/fonts/chillax/fonts/Chillax-Semibold.woff2') format('woff2'),
+       url('mkdocs/overrides/fonts/chillax/fonts/Chillax-Semibold.woff') format('woff'),
+       url('mkdocs/overrides/fonts/chillax/fonts/Chillax-Semibold.ttf') format('truetype');
+       font-weight: 600;
+       font-display: swap;
+       font-style: normal;
+}
