@@ -1,3 +1,6 @@
+/* Import Fonts */
+@import url('css/chillax.css');
+
 /* Increase block size to show full text */
 .md-source__repository {
   display:inline-block;
@@ -72,14 +75,4 @@ a.md-button.md-button:hover {
 }
 .md-tabs__link:hover {
   color: var(--md-accent-fg-color);
-}
-
-@font-face {
-  font-family: 'Chillax-Semibold';
-  src: url('../fonts/chillax/Chillax-Semibold.woff2') format('woff2'),
-       url('../fonts/chillax/Chillax-Semibold.woff') format('woff'),
-       url('../fonts/chillax/Chillax-Semibold.ttf') format('truetype');
-       font-weight: 600;
-       font-display: swap;
-       font-style: normal;
 }
