@@ -107,7 +107,7 @@ a.md-button.md-button:hover {
 
 /* Cookie Consent */
 
-.md-consent__form {
+.md-consent__form p {
   font-family: 'Chillax-Medium';
 }
 
