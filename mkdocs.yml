@@ -4,7 +4,7 @@
 site_name: "Shardbyte Documentation"
 site_description: "Documentation using Github Pages"
 site_author: "Shardbyte"
-site_url: "https://shardbyte.com"
+site_url: "https://shardbyte.com/"
 
 # Copyright
 copyright: |
@@ -157,15 +157,16 @@ plugins:
   - search
 #  - optimize
 #  - privacy
+  - typeset
   - social
   - tags
   - minify:
       minify_html: true
   - git-revision-date-localized:
       enabled: true
+      type: timeago
       enable_creation_date: true
       fallback_to_build_date: true
-      type: timeago
   - git-committers:
       enabled: true
       repository: Shardbyte/shard-docs
