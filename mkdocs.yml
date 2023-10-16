@@ -157,7 +157,7 @@ plugins:
   - search
 #  - optimize
 #  - privacy
-  - typeset
+#  - typeset
   - social
   - tags
   - minify:
