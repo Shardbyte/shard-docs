@@ -1,6 +1,6 @@
 Babel==2.12.1
 beautifulsoup4==4.12.2
-black==23.3.0
+black==23.9.1
 bracex==2.4
 cairocffi==1.6.1
 CairoSVG==2.7.0
