@@ -81,7 +81,7 @@ a.md-button.md-button:hover {
 .md-tabs__list {
   font-family: 'Chillax-Medium';
 }
-.md-header__topic {
+.md-header {
   font-family: 'Chillax-Medium';
 }
 .md-header__title {
@@ -90,12 +90,9 @@ a.md-button.md-button:hover {
 .md-header__source {
   font-family: 'Chillax-Medium';
 }
-.md-search__inner {
+.md-search {
   font-family: 'Chillax-Medium';
 }
-.md-search__input {
-  font-family: 'Chillax-Medium';
-}
-.md-search__form {
+.md-footer {
   font-family: 'Chillax-Medium';
 }
