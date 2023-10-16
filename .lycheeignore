@@ -1,3 +1,0 @@
-"{{ page.next_page.url | url }}"
-"{{ page.previous_page.url | url }}"
-"{{ config.repo_url }}"
