@@ -112,3 +112,7 @@ a.md-button.md-button:hover {
 .md-consent__form {
   font-family: 'Chillax-Medium';
 }
+
+.md-consent__controls {
+  font-family: 'Chillax-Semibold';
+}
