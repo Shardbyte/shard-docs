@@ -1,9 +1,12 @@
-name: ci
+name: mkdocs-build
 
 on:
   push:
     branches:
-      - "*"
+      - main
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4 * * *'
 
 env:
   PYTHON_VERSION: 3.x
@@ -14,7 +17,7 @@ permissions:
   pages: write
 
 jobs:
-  build-docs:
+  pages-build-deployment:
     runs-on: ubuntu-latest
     steps:
 
@@ -29,7 +32,6 @@ jobs:
           python-version: ${{ env.PYTHON_VERSION }}
           cache: pip
           cache-dependency-path: |
-            pyproject.toml
             requirements.txt
 
       - name: Set up build cache
@@ -52,7 +54,7 @@ jobs:
           pip install mkdocs-git-revision-date-localized-plugin
 
       - name: Install other dependencies
-        run: sudo apt-get install -y pngquant libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev nodejs
+        run: sudo apt-get install -y build-base jpeg-dev zlib-dev freetype-dev lcms2-dev openjpeg-dev tiff-dev tk-dev tcl-dev cairo-dev libffi-dev libwebp-dev pngquant libcairo2-dev libfreetype6-dev libjpeg-dev libpng-dev libz-dev nodejs
 
       - name: Build documentation
         env:
