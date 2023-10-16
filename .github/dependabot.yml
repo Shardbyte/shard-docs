@@ -1,67 +1,11 @@
 version: 2
 updates:
-- package-ecosystem: npm
-  open-pull-requests-limit: 10
-  directory: "/"
-  labels: []
-  schedule:
-    interval: weekly
-    time: "04:00"
 - package-ecosystem: pip
   open-pull-requests-limit: 10
   directory: "/"
   labels: []
   schedule:
     interval: weekly
-    time: "04:00"
-- package-ecosystem: maven
-  open-pull-requests-limit: 10
-  directory: "/"
-  labels: []
-  schedule:
-    interval: weekly
-    time: "04:00"
-- package-ecosystem: gradle
-  open-pull-requests-limit: 10
-  directory: "/"
-  labels: []
-  schedule:
-    interval: weekly
-    time: "04:00"
-- package-ecosystem: composer
-  open-pull-requests-limit: 10
-  directory: "/"
-  labels: []
-  schedule:
-    interval: weekly
-    time: "04:00"
-- package-ecosystem: cargo
-  open-pull-requests-limit: 10
-  directory: "/"
-  labels: []
-  schedule:
-    interval: weekly
-    time: "04:00"
-- package-ecosystem: bundler
-  open-pull-requests-limit: 10
-  directory: "/"
-  labels: []
-  schedule:
-    interval: weekly
-    time: "04:00"
-- package-ecosystem: docker
-  open-pull-requests-limit: 10
-  directory: "/"
-  labels: []
-  schedule:
-    interval: weekly
-    time: "04:00"
-- package-ecosystem: gitsubmodule
-  open-pull-requests-limit: 10
-  directory: "/"
-  labels: []
-  schedule:
-    interval: daily
     time: "04:00"
 - package-ecosystem: github-actions
   open-pull-requests-limit: 10
