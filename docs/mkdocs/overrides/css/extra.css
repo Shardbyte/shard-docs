@@ -90,7 +90,7 @@ a.md-button.md-button:hover {
 .md-header__source {
   font-family: 'Chillax-Medium';
 }
-.md-search {
+.md-search__inner {
   font-family: 'Chillax-Medium';
 }
 .md-search__input {
