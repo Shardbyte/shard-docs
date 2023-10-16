@@ -1,5 +1,9 @@
 ---
 title: How to Setup Fedora 38 on VirtualBox
+subtitle: Step-by-Step guide with example illustrations.
+description: This step by step guide will show you how to download, install virtualbox, and get Fedora 38 installed and running.
+icon: simple/virtualbox
+status: new
 ---
 
 <figure markdown>
