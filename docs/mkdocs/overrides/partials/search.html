@@ -21,9 +21,9 @@
 -->
 
 <!-- Search interface -->
-<div class="md-search" data-md-component="search" id="search_box" role="dialog">
+<div class="md-search" data-md-component="search" id="search_box" role="dialog" aria-label="search_box">
   <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" id="search_content" role="search">
+  <div class="md-search__inner" id="search_content" role="search" aria-label="search_content">
     <form class="md-search__form" name="search">
 
       <!-- Search input -->
@@ -101,7 +101,7 @@
           <div class="md-search-result__meta">
             {{ lang.t("search.result.initializer") }}
           </div>
-          <ol class="md-search-result__list" id="search_results" role="presentation"></ol>
+          <ol class="md-search-result__list" id="search_results" role="presentation" aria-label="search_results"></ol>
         </div>
       </div>
     </div>
