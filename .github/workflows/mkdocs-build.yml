@@ -54,7 +54,7 @@ jobs:
           pip install mkdocs-git-revision-date-localized-plugin
 
       - name: Install other dependencies
-        run: sudo apt-get install -y build-base jpeg-dev zlib-dev freetype-dev lcms2-dev openjpeg-dev tiff-dev tk-dev tcl-dev cairo-dev libffi-dev libwebp-dev pngquant libcairo2-dev libfreetype6-dev libjpeg-dev libpng-dev libz-dev nodejs
+        run: sudo apt-get install -y pngquant libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev nodejs
 
       - name: Build documentation
         env:
