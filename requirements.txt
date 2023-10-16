@@ -2,7 +2,7 @@ Babel==2.12.1
 beautifulsoup4==4.12.2
 black==23.3.0
 bracex==2.4
-cairocffi==1.6.0
+cairocffi==1.6.1
 CairoSVG==2.7.0
 certifi==2023.7.22
 cffi==1.15.1
