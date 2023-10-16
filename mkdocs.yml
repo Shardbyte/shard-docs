@@ -184,11 +184,11 @@ extra:
   social:
     # Github
     - icon: fontawesome/brands/github
-      link: https://github.com/Shardbyte
+      link: https://github.shardbyte.com
       name: Shardbyte @ Github
     # Twitter
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/Shardbyte
+      link: https://twitter.shardbyte.com
       name: Shardbyte @ Twitter
     # Discord
     - icon: fontawesome/brands/discord
