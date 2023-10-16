@@ -1,5 +1,5 @@
 ---
-title: Oracle VirtualBox
+title: How to Setup Fedora 38 on VirtualBox
 ---
 
 <figure markdown>
