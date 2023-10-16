@@ -76,3 +76,26 @@ a.md-button.md-button:hover {
 .md-tabs__link:hover {
   color: var(--md-accent-fg-color);
 }
+
+/* Change Font */
+.md-tabs__list {
+  font-family: 'Chillax-Medium';
+}
+.md-header__topic {
+  font-family: 'Chillax-Medium';
+}
+.md-header__title {
+  font-family: 'Chillax-Semibold';
+}
+.md-header__source {
+  font-family: 'Chillax-Medium';
+}
+.md-search__inner {
+  font-family: 'Chillax-Medium';
+}
+.md-search__input {
+  font-family: 'Chillax-Medium';
+}
+.md-search__form {
+  font-family: 'Chillax-Medium';
+}
