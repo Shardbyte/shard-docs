@@ -107,13 +107,16 @@ a.md-button.md-button:hover {
 
 /* Cookie Consent */
 
+.md-consent__form {
+  padding: 0;
+}
+
 .md-consent__form p {
   font-family: 'Chillax-Medium';
 }
 
 .md-consent__form h2 {
   font-family: 'Chillax-Semibold';
-  padding: 0;
 }
 
 .md-consent__controls md-button--primary {
