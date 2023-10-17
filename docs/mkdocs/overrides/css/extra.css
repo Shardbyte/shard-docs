@@ -42,7 +42,7 @@
 a.md-button.md-button--primary {
   background-color: var(--md-accent-fg-color);
   border-color: var(--md-accent-fg-color);
-  color: #ffffff;
+  color: #F4F3F2;
 }
 a.md-button.md-button--primary:hover {
   color: #262626;
@@ -125,4 +125,7 @@ a.md-button.md-button:hover {
 
 .md-consent__controls .md-button {
   font-family: 'Chillax-Semibold';
+  background-color: var(--md-accent-fg-color);
+  border-color: var(--md-accent-fg-color);
+  color: #F4F3F2;
 }
