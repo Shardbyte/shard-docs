@@ -120,11 +120,13 @@ a.md-button.md-button:hover {
 
 .md-consent__controls .md-button--primary {
   font-family: 'Chillax-Semibold';
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .md-consent__controls .md-button {
   font-family: 'Chillax-Semibold';
   color: #F4F3F2;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 /* Global Colors */
