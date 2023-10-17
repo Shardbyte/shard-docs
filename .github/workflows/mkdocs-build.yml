@@ -115,11 +115,9 @@ jobs:
       # Check out the repository
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      # Use a link checker action
-      - name: Broken Link Checker
+      # Check repisitory for broken links
+      - name: Check for Broken Links
         id: lychee
         uses: lycheeverse/lychee-action@master
         with:
