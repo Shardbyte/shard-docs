@@ -121,6 +121,7 @@ a.md-button.md-button:hover {
 .md-consent__controls .md-button--primary {
   font-family: 'Chillax-Semibold';
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  color: #0091eb;
 }
 
 .md-consent__controls .md-button {
