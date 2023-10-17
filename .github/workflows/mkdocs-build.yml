@@ -119,10 +119,10 @@ jobs:
       - name: Broken Link Checker
         id: lychee
         uses: lycheeverse/lychee-action@master
-        env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
           args: --skip-missing
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
       # Create an issue if there are broken links
       - name: Create Issue From File
