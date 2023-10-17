@@ -105,31 +105,6 @@ a.md-button.md-button:hover {
   font-family: 'Chillax-Medium';
 }
 
-/* Cookie Consent */
-.md-consent__form {
-  padding: 0;
-}
-
-.md-consent__form p {
-  font-family: 'Chillax-Medium';
-}
-
-.md-consent__form h2 {
-  font-family: 'Chillax-Semibold';
-}
-
-div.md-consent__controls > button.md-button.md-button--primary {
-  font-family: 'Chillax-Semibold';
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  background-color: #0091eb;
-}
-
-div.md-consent__controls > label.md-button {
-  font-family: 'Chillax-Semibold';
-  color: #F4F3F2;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
 /* Global Colors */
 :root {
   --md-primary-fg-color:        #4051b5;

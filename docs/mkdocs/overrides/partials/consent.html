@@ -1,6 +1,31 @@
   <!-- Copyright (c) 2016-2023 Martin Donath <martin.donath@squidfunk.com> -->
   <!-- Copyright (c) 2022-2023 Shardbyte <saint@shardbyte.com> -->
+<style>
+    .md-consent__form {
+        padding: 0;
+    }
 
+    .md-consent__form p {
+        font-family: 'Chillax-Medium';
+    }
+
+    .md-consent__form h2 {
+        font-family: 'Chillax-Semibold';
+    }
+
+    div.md-consent__controls > button.md-button.md-button--primary {
+      font-family: 'Chillax-Semibold';
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      background-color: #0091eb;
+      border-color: #0091eb;
+    }
+
+    div.md-consent__controls > label.md-button {
+        font-family: 'Chillax-Semibold';
+        color: #F4F3F2;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+</style>
 <!-- Determine cookies -->
 {% set cookies = config.extra.consent.cookies | d({}) %}
 {% if config.extra.analytics %}
