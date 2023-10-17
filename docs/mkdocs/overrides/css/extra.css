@@ -45,10 +45,10 @@ a.md-button.md-button--primary {
   color: #F4F3F2;
 }
 a.md-button.md-button--primary:hover {
-  color: #262626;
+  color: #1c2128;
 }
 a.md-button.md-button:hover {
-  color: #262626;
+  color: #1c2128;
 }
 
 /* Site width etc.*/
@@ -106,7 +106,6 @@ a.md-button.md-button:hover {
 }
 
 /* Cookie Consent */
-
 .md-consent__form {
   padding: 0;
 }
@@ -127,4 +126,11 @@ a.md-button.md-button:hover {
   font-family: 'Chillax-Semibold';
   border-color: var(--md-accent-fg-color);
   color: #F4F3F2;
+}
+
+/* Global Colors */
+:root {
+  --md-primary-fg-color:        #4051b5;
+  --md-primary-fg-color--light: #F4F3F2;
+  --md-primary-fg-color--dark:  #22272e;
 }
