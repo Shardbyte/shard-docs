@@ -119,10 +119,10 @@ a.md-button.md-button:hover {
   font-family: 'Chillax-Semibold';
 }
 
-.md-consent__controls md-button--primary {
+.md-consent__controls .md-button--primary {
   font-family: 'Chillax-Semibold';
 }
 
-.md-consent__controls md-button {
+.md-consent__controls .md-button {
   font-family: 'Chillax-Semibold';
 }
