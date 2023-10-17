@@ -111,9 +111,12 @@ jobs:
     runs-on: ubuntu-latest
     needs: mkdocs-build
     steps:
+
       # Check out the repository
       - name: Checkout repository
-      - uses: actions/checkout@v4
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       # Use a link checker action
       - name: Broken Link Checker
