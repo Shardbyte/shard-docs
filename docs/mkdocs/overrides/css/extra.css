@@ -45,10 +45,11 @@ a.md-button.md-button--primary {
   color: #F4F3F2;
 }
 a.md-button.md-button--primary:hover {
-  color: #1c2128;
+  color: #F4F3F2;
+  border-color: #F4F3F2;
 }
 a.md-button.md-button:hover {
-  color: #1c2128;
+  color: #F4F3F2;
 }
 
 /* Site width etc.*/
