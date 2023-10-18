@@ -82,9 +82,9 @@ theme:
   favicon: mkdocs/assets/images/logo-shardbyte-master-light.webp
 
 ## Global Font
-  font: false
-#    text: 'Roboto'
-#    code: 'Roboto Mono'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
 
   icon:
 ## Global Icons
