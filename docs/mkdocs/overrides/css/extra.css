@@ -113,3 +113,9 @@ a.md-button.md-button:hover {
   --md-primary-fg-color--light: #F4F3F2;
   --md-primary-fg-color--dark:  #22272e;
 }
+
+/* Global Fonts */
+:root {
+  --md-text-font: "Roboto";
+  --md-code-font: "Roboto Mono";
+}
