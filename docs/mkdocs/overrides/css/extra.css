@@ -92,9 +92,10 @@
 /* Global Colors */
 :root {
   --md-primary-fg-color:        #4051b5;
-  --md-primary-fg-color--light: #F4F3F2;
-  --md-primary-fg-color--dark:  #22272e;
+  --md-primary-fg-color--light: #5d6cc0;
+  --md-primary-fg-color--dark:  #303fa1;
+
   --md-accent-bg-color:         #F4F3F2;
-  --md-accent-bg-color--light:  rgba(247, 247, 247, 0.90);
-  --md-accent-bg-color--dark:   #1c2128;
+  --md-accent-bg-color--light:  #ffffffb3;
+  --md-accent-bg-color--dark:  #1d1d1e;
 }
