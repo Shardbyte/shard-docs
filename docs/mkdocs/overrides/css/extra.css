@@ -35,23 +35,6 @@
   height: 1.5rem;
 }
 
-/* frontpage elements */
-.tx-hero h1 {
-  font-size: 3.0rem !important;
-}
-a.md-button.md-button--primary {
-  background-color: var(--md-accent-fg-color);
-  border-color: var(--md-accent-fg-color);
-  color: #F4F3F2;
-}
-a.md-button.md-button--primary:hover {
-  color: #F4F3F2;
-  border-color: #F4F3F2;
-}
-a.md-button.md-button:hover {
-  color: #F4F3F2;
-}
-
 /* Site width etc.*/
 .md-grid {
   max-width: 64rem !important;
