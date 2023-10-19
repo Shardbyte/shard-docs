@@ -3,14 +3,16 @@ updates:
 - package-ecosystem: pip
   open-pull-requests-limit: 30
   directory: "/"
-  labels: []
+  labels:
+    - dependencies
   schedule:
-    interval: weekly
+    interval: daily
     time: "04:00"
 - package-ecosystem: github-actions
   open-pull-requests-limit: 30
   directory: "/"
-  labels: []
+  labels:
+    - dependencies
   schedule:
     interval: daily
     time: "04:00"
