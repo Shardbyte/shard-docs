@@ -94,4 +94,7 @@
   --md-primary-fg-color:        #4051b5;
   --md-primary-fg-color--light: #F4F3F2;
   --md-primary-fg-color--dark:  #22272e;
+  --md-accent-bg-color:         #F4F3F2;
+  --md-accent-bg-color--light:  rgba(247, 247, 247, 0.90);
+  --md-accent-bg-color--dark:   #1c2128;
 }
