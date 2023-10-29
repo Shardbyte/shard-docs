@@ -108,11 +108,26 @@ VirtualBox is a powerful virtualization tool that allows you to run multiple ope
 ##### **Installation Progress:**
   - The installer will copy files and install VirtualBox on your computer. This process may take a few minutes.
 
+<figure markdown>
+  ![Image title](https://shardbyte.com/assets/images/guides/virtualbox/virtualbox-image-009.webp){ width="450" }
+  <figcaption>Wait for Installation</figcaption>
+</figure>
+
 ##### **Installation Complete:**
   - Once the installation is complete, you'll see a "Completing the Oracle VM VirtualBox Setup Wizard" screen. Make sure the "Start Oracle VM VirtualBox after installation" option is checked. Click **Finish**.
 
+<figure markdown>
+  ![Image title](https://shardbyte.com/assets/images/guides/virtualbox/virtualbox-image-010.webp){ width="450" }
+  <figcaption>Finish Virtualbox Installation</figcaption>
+</figure>
+
 ##### **VirtualBox Installed:**
   - Oracle VM VirtualBox is now installed on your computer and should open automatically. You can also find it in your Start Menu or desktop, depending on the options you selected.
+
+<figure markdown>
+  ![Image title](https://shardbyte.com/assets/images/guides/virtualbox/virtualbox-image-011.webp){ width="450" }
+  <figcaption>Default Virtualbox</figcaption>
+</figure>
 
 ### **Step 3: Create a Virtual Machine**
 
@@ -125,20 +140,45 @@ VirtualBox is a powerful virtualization tool that allows you to run multiple ope
 ##### **Click "New":**
   - In the VirtualBox Manager, click the "New" button to initiate the creation of a new virtual machine.
 
+<figure markdown>
+  ![Image title](https://shardbyte.com/assets/images/guides/virtualbox/virtualbox-image-012.webp){ width="450" }
+  <figcaption>Choose 'New' to create a VM</figcaption>
+</figure>
+
 ##### **Name and Operating System Type:**
 1. In the "Name" field, give your virtual machine a descriptive name.
 2. In the "Machine Folder" field, you can specify the folder where the virtual machine files will be stored.
 3. Select the "Type" of the operating system you plan to install. This could be Windows, Linux, macOS, or another OS. VirtualBox will preconfigure some settings based on your selection.
 
+<figure markdown>
+  ![Image title](https://shardbyte.com/assets/images/guides/virtualbox/virtualbox-image-013.webp){ width="450" }
+  <figcaption>Choose Virtual Machine Options</figcaption>
+</figure>
+
 ##### **Choose the Operating System Version:**
   - In the "Version" dropdown, select the specific version or distribution of the operating system. If your OS version isn't listed, choose the one that's closest to it.
+
+<figure markdown>
+  ![Image title](https://shardbyte.com/assets/images/guides/virtualbox/virtualbox-image-014.webp){ width="450" }
+  <figcaption>Choose OS Version</figcaption>
+</figure>
 
 ##### **Memory (RAM) Allocation:**
   - Specify the amount of memory (RAM) to allocate to the virtual machine. The amount you allocate depends on the requirements of the guest OS and the available resources on your host computer.
 
+<figure markdown>
+  ![Image title](https://shardbyte.com/assets/images/guides/virtualbox/virtualbox-image-015.webp){ width="450" }
+  <figcaption>Choose VM Memory</figcaption>
+</figure>
+
 ##### **Create a Virtual Hard Disk:**
 1. Select "Create a virtual hard disk now" and click "Create."
 2. You'll be guided through the Virtual Hard Disk Creation Wizard. Here, you can choose the file type (typically VDI for VirtualBox), allocate the size of the virtual hard disk, and choose whether it should be dynamically allocated (which is more space-efficient) or fixed size.
+
+<figure markdown>
+  ![Image title](https://shardbyte.com/assets/images/guides/virtualbox/virtualbox-gif-003.gif){ width="450" }
+  <figcaption>Create a new Virtual Hard Disk</figcaption>
+</figure>
 
 ##### **Hard Disk File Location and Size:**
 1. Choose where you want to save the virtual hard disk file on your host computer.
@@ -148,8 +188,18 @@ VirtualBox is a powerful virtualization tool that allows you to run multiple ope
 1. Review your settings on the summary page to ensure they are correct.
 2. Click "Create" to finish creating the virtual machine.
 
+<figure markdown>
+  ![Image title](https://shardbyte.com/assets/images/guides/virtualbox/virtualbox-image-016.webp){ width="450" }
+  <figcaption>Review Virtual Hard Disk Settings</figcaption>
+</figure>
+
 ##### **Virtual Machine Created:**
   - Once you click "Create," your virtual machine will be created and listed in the VirtualBox Manager.
+
+<figure markdown>
+  ![Image title](https://shardbyte.com/assets/images/guides/virtualbox/virtualbox-image-017.webp){ width="450" }
+  <figcaption>Finished Initial VM Creation</figcaption>
+</figure>
 
 !!! note
     Your virtual machine is now set up and almost ready for the installation of the guest operating system. You can return to the VirtualBox Manager to start the installation process as described in Step 4.
