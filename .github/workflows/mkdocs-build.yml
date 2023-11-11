@@ -57,6 +57,7 @@ jobs:
           pip install mkdocs-material
           pip install mkdocs-material[recommended,git,imaging]
           pip install mkdocs-glightbox
+          pip install webp
           pip install pillow
           pip install cairosvg
           pip install mkdocs-git-authors-plugin
