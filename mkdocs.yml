@@ -252,6 +252,8 @@ nav:
   - Guides:
     - Virtualization:
       - VirtualBox Setup: guides/virtualization/oracle-virtualbox.md
+    - Docker:
+      - Discord Redbot: guides/docker/redbot.md
 
 #    - VMware Workstation Setup: virtualization/vmware-workstation.md
 #  - Tools:
