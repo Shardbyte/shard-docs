@@ -1,7 +1,7 @@
 ---
-title: 'Ultimate Guide: Setting Up Red Discord Bot with Docker for Seamless Server Management'
-subtitle: 'Unlock the Power of Red Discord Bot Using Docker - A Step-by-Step Tutorial for Effortless Deployment and Customization'
-description: 'Discover the simplicity of deploying the Red Discord Bot using Docker! This comprehensive guide walks you through creating a Discord bot, inviting it to your server, and leveraging Docker or Docker Compose for a streamlined setup. Optimize your server management with Red's powerful features hassle-free.'
+title: "Ultimate Guide: Setting Up Red Discord Bot with Docker for Seamless Server Management"
+subtitle: "Unlock the Power of Red Discord Bot Using Docker - A Step-by-Step Tutorial for Effortless Deployment and Customization"
+description: "Discover the simplicity of deploying the Red Discord Bot using Docker! This comprehensive guide walks you through creating a Discord bot, inviting it to your server, and leveraging Docker or Docker Compose for a streamlined setup. Optimize your server management with Red's powerful features hassle-free."
 icon: simple/docker
 status: new
 ---
