@@ -43,7 +43,7 @@ jobs:
 
       # Set up build cache
       - name: Set up build cache
-        uses: actions/cache/restore@v3
+        uses: actions/cache/restore@v4
         with:
           key: mkdocs-material-${{ hashfiles('.cache/**') }}
           path: .cache
@@ -90,7 +90,7 @@ jobs:
 
       # Save build cache
       - name: Save build cache
-        uses: actions/cache/save@v3
+        uses: actions/cache/save@v4
         with:
           key: mkdocs-material-${{ hashfiles('.cache/**') }}
           path: .cache
