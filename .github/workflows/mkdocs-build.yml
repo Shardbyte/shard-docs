@@ -125,7 +125,7 @@ jobs:
       # Create an issue if there are broken links
       - name: Create Issue From File
         if: ${{ steps.lychee.outputs.exit_code != 0 }}
-        uses: peter-evans/create-issue-from-file@v4
+        uses: peter-evans/create-issue-from-file@v5
         with:
           title: Link Checker Report
           content-filepath: ./lychee/out.md
