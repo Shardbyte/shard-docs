@@ -49,7 +49,7 @@ pygtrie==2.5.0
 pymdown-extensions==10.5
 pyparsing==3.1.1
 python-dateutil==2.8.2
-pytz==2023.3.post1
+pytz==2023.4
 PyYAML==6.0.1
 pyyaml_env_tag==0.1
 regex==2023.10.3
