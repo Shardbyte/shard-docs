@@ -57,7 +57,7 @@ soupsieve==2.5
 tinycss2==1.2.1
 tomli==2.0.1
 urllib3==2.2.1
-wheel==0.42.0
+wheel==0.43.0
 setuptools==69.0.2
 pycparser==2.21
 webp~=0.3.0
