@@ -60,4 +60,4 @@ urllib3==2.2.1
 wheel==0.43.0
 setuptools==70.0.0
 pycparser==2.22
-webp~=0.3.0
+webp~=0.4.0
