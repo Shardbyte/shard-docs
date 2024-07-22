@@ -19,6 +19,7 @@ With Pterodactyl Panel, you can focus on what matters most—providing an excell
 Ensure you have the following before starting the setup process:
 
 - A fresh Linux server of one of the following Distributions:
+
 | Operating System | Version | Supported        |
 | :--------------: | :-----: | :--------------: |
 | Debian           | 10      | :material-check: |
@@ -29,6 +30,7 @@ Ensure you have the following before starting the setup process:
 | Ubuntu           | 20.04   | :material-check: |
 |                  | 22.04   | :material-check: |
 |                  | 24.04   | :material-check: |
+
 - Root or sudo access to the server. (ideally root)
 - Basic knowledge of command line operations.
 
