@@ -41,9 +41,19 @@ Ensure you have the following before starting the setup process:
 ### **Step 1: Update Your Server**
 
 Start by updating your server to ensure all packages are up to date.
-``` { .bash .copy title="Debian & Ubuntu" }
+=== Debian
+
+``` { .bash .copy" }
 sudo apt update && sudo apt upgrade -y
 ```
+
+=== Ubuntu
+
+``` { .bash .copy" }
+sudo apt update && sudo apt upgrade -y
+```
+
+=== Fedora
 
 ``` { .bash .copy title="Fedora" }
 sudo dnf update -y
