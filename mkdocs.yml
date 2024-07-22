@@ -278,8 +278,9 @@ nav:
     - Pterodactyl:
       - Panel Install: guides/pterodactyl/install-panel.md
       - Wings Install: guides/pterodactyl/install-wings.md
-        - Eggs:
-          - W: guides/pterodactyl/eggs/egg-tarkov.md
+    - Pterodactyl Eggs:
+      - Escape from Tarkov: guides/pterodactyl/eggs/egg-tarkov.md
+
 
 #    - VMware Workstation Setup: virtualization/vmware-workstation.md
 #  - Tools:

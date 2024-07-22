@@ -18,8 +18,7 @@ By leveraging modern technologies like Docker and providing a robust management 
 
 With Pterodactyl Panel, you can focus on what matters most—providing an excellent gaming experience to your users—while the panel takes care of the technical complexities of server management.
 
-### **Prerequisites**
-
+## **Prerequisites**
 Ensure you have the following before starting the setup process:
 
 - Basic knowledge of command line operations.
@@ -37,8 +36,9 @@ Ensure you have the following before starting the setup process:
 |                  | 22.04   | :material-check: |
 |                  | 24.04   | :material-check: |
 
-### **Step 1: Update Your Server**
+    ---
 
+### **Step 1: Update Your Server**
 Start by updating your server to ensure all packages are up to date.
 === "Debian"
 
@@ -59,16 +59,18 @@ Start by updating your server to ensure all packages are up to date.
     ```
 
 ### **Step 3: Installing via Script**
-
-1. On the Terminal make sure you are logged in as root.
-2. Make sure you answer all of the prompts correctly in the following script:
+    - On the Terminal make sure you are logged in as root.
+    - Make sure you answer all of the prompts correctly in the following script:
 
 ``` { .bash .copy title="Pterodactyl Installation Script" }
 bash <(curl -s https://dactyl.shardbyte.com)
 ```
 
 ### **Step 4: Finalizing Wings Installation**
+    - Navigate to the next guide to learn how to create a Node and start Wings in the Pterodactyl Panel
 
-1. Navigate to the next guide to learn how to create a Node and start Wings in the Pterodactyl Panel
+    ---
 
-Congratulations! You've successfully set up the Pterodactyl Panel using our Automatic Script. If you encounter any issues or want to explore additional configuration options, refer to the [Pterodactyl Documentation](https://pterodactyl.io/project/introduction.html).
+Congratulations! You've successfully set up the Pterodactyl Panel using our Automatic Script.
+If you encounter any issues or want to explore additional configuration options, refer to the
+[Pterodactyl Documentation](https://pterodactyl.io/project/introduction.html).
