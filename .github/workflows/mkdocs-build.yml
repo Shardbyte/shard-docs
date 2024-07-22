@@ -1,14 +1,14 @@
-# Define the name of the workflow
 name: mkdocs-build
 
 # Define when the workflow should run
+# Runts at 10:00AM on Sunday, Wednesday, and Friday.
 on:
   push:
     branches:
       - main
   workflow_dispatch:
   schedule:
-    - cron: '0 10 * * *'
+    - cron: '0 10 * * 0,3,5'
 
 # Define environment variables
 env:
@@ -60,9 +60,9 @@ jobs:
           pip install webp
           pip install pillow
           pip install cairosvg
-          pip install mkdocs-git-authors-plugin
-          pip install mkdocs-git-committers-plugin-2
           pip install mkdocs-git-revision-date-localized-plugin
+#          pip install mkdocs-git-authors-plugin
+#          pip install mkdocs-git-committers-plugin-2
 
       # Install other dependencies
       - name: Install other dependencies
