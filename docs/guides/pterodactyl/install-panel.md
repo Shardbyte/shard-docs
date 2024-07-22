@@ -22,6 +22,8 @@ With Pterodactyl Panel, you can focus on what matters most—providing an excell
 
 Ensure you have the following before starting the setup process:
 
+- Basic knowledge of command line operations.
+- Root or sudo access to the server. (ideally root)
 - A fresh Linux server of one of the following Distributions:
 
 | Operating System | Version | Supported        |
@@ -35,29 +37,26 @@ Ensure you have the following before starting the setup process:
 |                  | 22.04   | :material-check: |
 |                  | 24.04   | :material-check: |
 
-- Root or sudo access to the server. (ideally root)
-- Basic knowledge of command line operations.
-
 ### **Step 1: Update Your Server**
 
 Start by updating your server to ensure all packages are up to date.
 === "Debian"
 
-``` { .bash .copy }
-sudo apt update && sudo apt upgrade -y
-```
+    ``` { .bash .copy }
+    sudo apt update && sudo apt upgrade -y
+    ```
 
 === "Ubuntu"
 
-``` { .bash .copy }
-sudo apt update && sudo apt upgrade -y
-```
+    ``` { .bash .copy }
+    sudo apt update && sudo apt upgrade -y
+    ```
 
 === "Fedora"
 
-``` { .bash .copy}
-sudo dnf update -y
-```
+    ``` { .bash .copy}
+    sudo dnf update -y
+    ```
 
 ### **Step 3: Installing via Script**
 
