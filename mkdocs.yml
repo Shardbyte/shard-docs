@@ -255,7 +255,7 @@ nav:
     - Docker:
       - Discord Redbot: guides/docker/redbot.md
     - Pterodactyl:
-      - Panel Install: guides/pterodactyl/panel-install.md
+      - Panel Install: guides/pterodactyl/install-panel.md
 
 #    - VMware Workstation Setup: virtualization/vmware-workstation.md
 #  - Tools:
