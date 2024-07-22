@@ -1,7 +1,7 @@
 name: mkdocs-build
 
 # Define when the workflow should run
-# Runts at 10:00AM on Sunday, Wednesday, and Friday.
+# Runs at 10:00AM on Sunday, Wednesday, and Friday.
 on:
   push:
     branches:
