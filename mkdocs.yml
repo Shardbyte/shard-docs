@@ -168,10 +168,10 @@ plugins:
       type: timeago
       enable_creation_date: true
       fallback_to_build_date: true
-  - git-committers:
-      enabled: true
-      repository: Shardbyte/shard-docs
-      branch: main
+#  - git-committers:
+#      enabled: true
+#      repository: Shardbyte/shard-docs
+#      branch: main
 
 #########
 # EXTRA #
