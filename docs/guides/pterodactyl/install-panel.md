@@ -19,8 +19,8 @@ By leveraging modern technologies like Docker and providing a robust management 
 With Pterodactyl Panel, you can focus on what matters most—providing an excellent gaming experience to your users—while the panel takes care of the technical complexities of server management.
 
 ## **Prerequisites**
-Ensure you have the following before starting the setup process:
 
+Ensure you have the following before starting the setup process:
 - Basic knowledge of command line operations.
 - Root or sudo access to the server. (ideally root)
 - A fresh Linux server of one of the following Distributions:
