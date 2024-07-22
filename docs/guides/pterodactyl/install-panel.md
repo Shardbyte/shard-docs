@@ -8,7 +8,7 @@ status: new
 
 <figure markdown>
   ![Image title](https://shardbyte.com/assets/images/guides/pterodactyl/pterodactyl-image-001.png){ width="580" }
-  <figcaption>VirtualBox</figcaption>
+  <figcaption>Pterodactyl</figcaption>
 </figure>
 
 # **Pterodactyl Panel**
