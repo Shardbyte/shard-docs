@@ -115,6 +115,8 @@ theme:
 ## Tag Icons
     tag:
       bash: simple/gnubash
+      pterodactyl: simple/pterodactyl
+      pterodactyl-egg: material/egg
 
 ##############
 # EXTENSIONS #
@@ -200,6 +202,8 @@ extra:
 ## Tags
   tags:
     BASH: bash
+    Pterodactyl: pterodactyl
+    Pterodactyl-Egg: pterodactyl-egg
 
 ## Social Links
   social:
@@ -254,6 +258,7 @@ extra:
 ## Status
   status:
     new: Recently added
+    hot: Hot topic
 
 ## JS Extras
 extra_javascript:

@@ -28,7 +28,7 @@ Ensure you have the following before starting the setup process:
 
 ---
 
-### **Step 1: Creating a Location in Pterodactyl**
+### **Step 1: Creating a Location in Pterodactyl Panel**
 
 #### **Login to Pterodactyl Admin Panel:**
 
@@ -51,7 +51,7 @@ Your location is now created and can be assigned to nodes for better organizatio
 
 ---
 
-### **Step 2: Create a Node in Pterodactyl Panel**
+### **Step 2: Creating a Node in Pterodactyl Panel**
 
 #### **Navigate Pterodactyl Admin Panel:**
 
