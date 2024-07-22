@@ -85,6 +85,6 @@ systemctl start wings
 1. Check Node Status:
     - Go back to the Pterodactyl Panel.
     - Navigate to **Admin Panel** > **Nodes**.
-    - Your new Node should show as :material-heart-pulse:{ .green-heart } **Active** if Wings started successfully.
+    - Your new Node should show as :material-heart-pulse:{ .heart-pulse } **Active** if Wings started successfully.
 
 Congratulations! You've successfully configured and started your Node for Pterodactyl Panel. If you encounter any issues or want to explore additional configuration options, refer to the [Pterodactyl Documentation](https://pterodactyl.io/wings/1.0/installing.html).

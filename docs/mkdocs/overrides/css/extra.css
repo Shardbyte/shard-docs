@@ -101,7 +101,7 @@
 }
 
 /* Animated Icons */
-@keyframes green-heart {
+@keyframes material-heart-pulse {
   0%, 40%, 80%, 100% {
     transform: scale(1);
   }
@@ -109,7 +109,7 @@
     transform: scale(1.15);
   }
 }
-.green-heart {
-  animation: green-heart 1000ms infinite;
+.heart-pulse {
+  animation: material-heart-pulse 1000ms infinite;
   color: #50af51;
 }
