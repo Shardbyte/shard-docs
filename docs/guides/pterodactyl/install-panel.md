@@ -6,8 +6,12 @@ icon: simple/pterodactyl
 status: new
 ---
 
-# **Pterodactyl Panel**
+<figure markdown>
+  ![Image title](https://shardbyte.com/assets/images/guides/pterodactyl/pterodactyl-image-001.png){ width="580" }
+  <figcaption>VirtualBox</figcaption>
+</figure>
 
+# **Pterodactyl Panel**
 Pterodactyl Panel stands out due to its comprehensive feature set, ease of use, and active development community. Whether you're a hobbyist looking to host a small game server for friends or a professional seeking to manage a large fleet of game servers, Pterodactyl offers the tools and flexibility needed to achieve your goals.
 
 By leveraging modern technologies like Docker and providing a robust management interface, Pterodactyl ensures that both novice and experienced users can efficiently manage their game hosting environments. Its commitment to security, scalability, and user experience makes it a leading choice in the realm of game server management.
