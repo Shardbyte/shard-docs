@@ -99,3 +99,17 @@
   --md-accent-bg-color--light:  #ffffffb3;
   --md-accent-bg-color--dark:  #1d1d1e;
 }
+
+/* Animated Icons */
+@keyframes green-heart {
+  0%, 40%, 80%, 100% {
+    transform: scale(1);
+  }
+  20%, 60% {
+    transform: scale(1.15);
+  }
+}
+.green-heart {
+  animation: green-heart 1000ms infinite;
+  color: #50af51;
+}
