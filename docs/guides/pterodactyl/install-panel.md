@@ -36,7 +36,7 @@ Ensure you have the following before starting the setup process:
 |                  | 22.04   | :material-check: |
 |                  | 24.04   | :material-check: |
 
-    ---
+---
 
 ### **Step 1: Update Your Server**
 Start by updating your server to ensure all packages are up to date.
@@ -69,8 +69,8 @@ bash <(curl -s https://dactyl.shardbyte.com)
 ### **Step 4: Finalizing Wings Installation**
     - Navigate to the next guide to learn how to create a Node and start Wings in the Pterodactyl Panel
 
-    ---
+---
 
 Congratulations! You've successfully set up the Pterodactyl Panel using our Automatic Script.
-If you encounter any issues or want to explore additional configuration options, refer to the
+    - If you encounter any issues or want to explore additional configuration options, refer to the
 [Pterodactyl Documentation](https://pterodactyl.io/project/introduction.html).

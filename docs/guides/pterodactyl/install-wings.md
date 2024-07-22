@@ -17,24 +17,24 @@ Pterodactyl Wings is a key component of the Pterodactyl game server management p
 ## **Prerequisites**
 Ensure you have the following before starting the setup process:
 
+- Basic knowledge of command line operations.
+- Root or sudo access to the server. (ideally root)
 - Pterodactyl Panel installed and configured.
 - Access to the Pterodactyl admin panel.
-- Root or sudo access to the server. (ideally root)
-- Basic knowledge of command line operations.
 
-    ---
+---
 
 ### **Step 1: Creating a Location in Pterodactyl**
 
-#### **Step 1: Login to Pterodactyl Admin Panel:**
+#### **Login to Pterodactyl Admin Panel:**
     - Open your Pterodactyl Panel in a web browser.
     - Log in with your admin credentials.
 
-#### **Step 2: Navigate to Locations:**
+#### **Navigate to Locations:**
     - In the sidebar, go to **Admin Panel**.
     - Click on **Locations**.
 
-#### **Step 3: Create a New Location:**
+#### **Create a New Location:**
     - Click the **Create New** button.
     - **Name:** Enter a name for the location (e.g., "North America").
     - **Short Code:** Enter a short code (e.g., "NA").
@@ -42,7 +42,7 @@ Ensure you have the following before starting the setup process:
 
 Your location is now created and can be assigned to nodes for better organization and resource management.
 
-    ---
+---
 
 ### **Step 2: Create a Node in Pterodactyl Panel**
 
@@ -89,8 +89,7 @@ systemctl start wings
     - Navigate to **Admin Panel** > **Nodes**.
     - Your new Node should show as :material-heart-pulse:{ .heart-pulse } **Active** if Wings started successfully.
 
-    ---
+---
 
 Congratulations! You've successfully configured and started your Node for Pterodactyl Panel.
-If you encounter any issues or want to explore additional configuration options, refer to the
-[Pterodactyl Documentation](https://pterodactyl.io/wings/1.0/installing.html).
+    - If you encounter any issues or want to explore additional configuration options, refer to the [Pterodactyl Documentation](https://pterodactyl.io/wings/1.0/installing.html).
