@@ -113,3 +113,13 @@
   animation: material-heart-pulse 1000ms infinite;
   color: #50af51;
 }
+
+/* Custom Status Icons */
+:root {
+  --md-status--hot: url('material/material-fire-circle')
+}
+
+.md-status--hot::after {
+  mask-image: var(--md-status--hot);
+  -webkit-mask-image: var(--md-status--hot);
+}
