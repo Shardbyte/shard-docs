@@ -39,8 +39,6 @@ Create a `docker-compose.yml` file in your preferred text editor with the follow
 # Docker Compose | compose-redbot.yml
 #
 #
-version: "3.9"
-#
 services:
 ######################################################
   discord-redbot:
