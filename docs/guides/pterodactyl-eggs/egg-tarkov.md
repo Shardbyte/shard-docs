@@ -45,7 +45,7 @@ Both mods aim to bring the challenging and tactical gameplay of Escape from Tark
 - **Upload File:** Click to upload your custom egg JSON file.
 - Review the egg details and click **Import**.
 
-### **Assign the Egg to a Server**
+### **Create a new server with the egg**
 
 - Navigate to **Servers**.
 - Click on **Create New**
