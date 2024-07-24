@@ -55,4 +55,6 @@ Both mods aim to bring the challenging and tactical gameplay of Escape from Tark
 - Configure any additional settings as required.
 - Create the new server by clicking on **Create Server**
 
-The server will now prepare and build the requested versions of SPT/FIKA Tarkov. The server will show a log of actions as they are happening in the server console.
+The server will now prepare and build the requested versions of SPT/FIKA Tarkov.
+
+- The server will show a log of actions as they are happening in the server console.
