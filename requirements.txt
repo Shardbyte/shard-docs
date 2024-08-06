@@ -1,7 +1,7 @@
 Babel==2.15.0
 beautifulsoup4==4.12.3
 black==24.8.0
-bracex==2.4
+bracex==2.5
 cairocffi==1.7.1
 CairoSVG==2.7.1
 certifi==2024.7.4
