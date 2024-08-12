@@ -92,6 +92,11 @@ Your location is now created and can be assigned to nodes for better organizatio
 
 #### **Start Wings:**
 
+<figure markdown>
+  ![Image title](https://shardbyte.com/assets/images/guides/pterodactyl/pterodactyl-img-004.jpg){ width="600" }
+  <figcaption>Wings Installation Completed</figcaption>
+</figure>
+
 ``` { .bash .copy title="Start Wings using the following command:" }
 systemctl start wings
 ```
