@@ -280,6 +280,8 @@ nav:
       - VirtualBox Setup: guides/virtualization/oracle-virtualbox.md
     - Docker:
       - Discord Redbot: guides/docker/redbot.md
+    - Codium:
+      - Install Extensions: guides/codium/install-extensions.md
     - Pterodactyl:
       - Panel Install: guides/pterodactyl/install-panel.md
       - Wings Install: guides/pterodactyl/install-wings.md
