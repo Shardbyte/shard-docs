@@ -40,10 +40,10 @@ Create a `docker-compose.yml` file in your preferred text editor with the follow
 #
 #
 services:
-######################################################
-  discord-redbot:
+#######################################################
+  discord_redbot:
     image: 'shardbyte/bot-red:latest'
-    container_name: discord-redbot
+    container_name: discord_redbot
     restart: unless-stopped
     environment:
       TOKEN: 'YOUR_BOT_TOKEN'
@@ -56,11 +56,11 @@ services:
       - '/your/persistent/data/location:/data'
     networks:
       - your_network
-######################################################
+#######################################################
 networks:
   your_network:
     name: your_network
-######################################################
+#######################################################
 ```
 !!! note
     Replace `YOUR_BOT_TOKEN` with the actual token you obtained from the [Discord Developer Portal](https://discord.com/developers/applications).
