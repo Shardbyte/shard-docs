@@ -63,12 +63,27 @@ Start by updating your server to ensure all packages are up to date.
 
 ### **Step 3: Installing via Script**
 
+<figure markdown>
+  ![Image title](https://shardbyte.com/assets/images/guides/pterodactyl/pterodactyl-img-001.jpg){ width="600" }
+  <figcaption>Script Options</figcaption>
+</figure>
+
 - On the Terminal make sure you are logged in as root.
 - Make sure you answer all of the prompts correctly in the following script:
 
 ``` { .bash .copy title="Pterodactyl Installation Script" }
 bash <(curl -s https://dactyl.shardbyte.com)
 ```
+
+<figure markdown>
+  ![Image title](https://shardbyte.com/assets/images/guides/pterodactyl/pterodactyl-img-002.jpg){ width="600" }
+  <figcaption>Configuration Options</figcaption>
+</figure>
+
+<figure markdown>
+  ![Image title](https://shardbyte.com/assets/images/guides/pterodactyl/pterodactyl-img-003.jpg){ width="600" }
+  <figcaption>Installation Completed</figcaption>
+</figure>
 
 ### **Step 4: Finalizing Wings Installation**
 
