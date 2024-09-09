@@ -43,7 +43,7 @@ packaging==24.1
 pathspec==0.12.1
 Pillow==10.4.0
 pip==24.2
-platformdirs==4.2.2
+platformdirs==4.3.2
 Pygments==2.18.0
 pygtrie==2.5.0
 pymdown-extensions==10.9
