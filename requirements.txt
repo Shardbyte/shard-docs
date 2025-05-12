@@ -58,6 +58,6 @@ tomli==2.2.1
 tinycss2==1.4.0
 urllib3==2.4.0
 wheel==0.44.0
-setuptools==72.2.0
+setuptools==80.4.0
 pycparser==2.22
 webp~=0.4.0
