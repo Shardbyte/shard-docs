@@ -51,7 +51,7 @@ pyparsing==3.1.4
 python-dateutil==2.9.0.post0
 pytz==2024.2
 PyYAML==6.0.2
-pyyaml_env_tag==0.1
+pyyaml_env_tag==1.1
 regex==2024.11.6
 soupsieve==2.7
 tomli==2.2.1
