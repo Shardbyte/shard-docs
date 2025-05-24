@@ -3,7 +3,7 @@ beautifulsoup4==4.13.4
 black==25.1.0
 bracex==2.5.post1
 cairocffi==1.7.1
-CairoSVG==2.7.1
+CairoSVG==2.8.2
 certifi==2025.4.26
 cffi==1.17.1
 charset-normalizer==3.4.2
