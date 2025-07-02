@@ -46,7 +46,7 @@ pip==25.1.1
 platformdirs==4.3.8
 Pygments==2.19.1
 pygtrie==2.5.0
-pymdown-extensions==10.15
+pymdown-extensions==10.16
 pyparsing==3.2.3
 python-dateutil==2.9.0.post0
 pytz==2025.2
