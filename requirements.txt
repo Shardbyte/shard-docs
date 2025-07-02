@@ -44,7 +44,7 @@ pathspec==0.12.1
 Pillow==11.3.0
 pip==25.1.1
 platformdirs==4.3.8
-Pygments==2.19.1
+Pygments==2.19.2
 pygtrie==2.5.0
 pymdown-extensions==10.15
 pyparsing==3.2.3
