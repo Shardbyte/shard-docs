@@ -55,7 +55,7 @@ pyyaml_env_tag==1.1
 regex==2024.11.6
 soupsieve==2.7
 tomli==2.2.1
-tinycss2==1.4.0
+tinycss2==1.5.0
 urllib3==2.5.0
 wheel==0.45.1
 setuptools==80.9.0
